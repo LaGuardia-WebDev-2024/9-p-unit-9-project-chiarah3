@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Poetsen+One&display=swap');
+@font-face{
+  font-family:para;
+  src:url("https://cdn.glitch.global/108b1bad-8744-4678-bc68-97f44f6ac244/Anthrope%20Personal%20Use%20Only.ttf?v=1739292763253");
+}
+
+@font-face{
+  font-family:message;
+  src:url("https://cdn.glitch.global/72649f41-3ff6-4eeb-8adf-5910c1de3910/MoveOnly.otf?v=1741191631144")
+}
 
 body {
-  background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
+  background-image: url("https://img.freepik.com/premium-photo/textured-grunge-decoration-wall-floor_1258-37800.jpg?semt=ais_hybrid");
   text-align: center;
   margin: auto;
    font-family: "Poetsen One", serif;
@@ -10,12 +19,21 @@ body {
 h1{
   font-size: 30px;
   color: white;
+  font-family: para;
 }
+
+p{
+  font-size: 12px;
+    color: white;
+  font-family: message;
+}
+
 
 #myCanvas {
   background-size: 600px 400px;
   border-radius: 30px;
   border: 5px solid white;
+  text
 }
 
 
